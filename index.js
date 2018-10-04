@@ -46,7 +46,7 @@ function removeFromCart(item) {
   // write your code here
   for (var num; num < cart.length; num++) {
     if (cart[num].itemName === item) {
-      
+      cart.splice();
     }
   }
 }
