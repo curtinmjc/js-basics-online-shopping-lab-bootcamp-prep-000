@@ -28,7 +28,6 @@ function viewCart() {
     }
     cartAsString = cartAsString + "and " + cart[num].itemName + " at $" + cart[num].itemPrice + ".";
   }
-  }
   return cartAsString;
 }
 
