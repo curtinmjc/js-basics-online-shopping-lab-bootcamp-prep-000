@@ -122,11 +122,12 @@ describe("total()", function() {
 describe("removeFromCart()", function() {
   it("removes the specified item from the cart", function() {
     addToCart("vanilla");
-    addToCart("watermelon");
-//    addToCart("mike");
+//    addToCart("watermelon");
+    addToCart("mike");
     addToCart("yams");
 
-    removeFromCart("watermelon");
+//    removeFromCart("watermelon");
+    removeFromCart("mike");
 
     const firstItemName = getCart()[0].itemName;
     const secondItemName = getCart()[1].itemName;
