@@ -20,7 +20,7 @@ function viewCart() {
   // write your code here
   var cartAsString;
   if (cart.length === 0) {
-    cartString = "Your shopping cart is empty.";
+    cartAsString = "Your shopping cart is empty.";
   } else {
     cartAsString = "In your cart, you have ";
     for (var num = 0; num < cart.length - 1; num++) {
